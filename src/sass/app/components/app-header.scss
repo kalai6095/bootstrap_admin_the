@@ -1,3 +1,20 @@
-body{
-  background:yellow;
+.app-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1500;
+  width: 100%;
+  display: flex;
+  background-color: $primary-hex;
+  padding-right: 15px;
+}
+
+.app-header__logo {
+  flex: 1 0 auto;
+  color: #fff;
+  font-family: $app-font-serif;
+  text-align: center;
+  font-size: 26px;
+  padding: 0 15px;
+  line-height: 50px;
 }
