@@ -17,7 +17,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "serialize-javascript": ">=2.1.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
